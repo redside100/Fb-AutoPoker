@@ -12,5 +12,3 @@ function poke()
 }
 
 poke();
-
-javascript:(alert("AutoPoke now running."); function p(){ l = document.getElementsByTagName("a"); for (var i=0; i < l.length; i++){ls = l[i];if(ls.innerHTML.contains("Poke Back")){ls.click();}} setTimeout(p, 500);} p();)
