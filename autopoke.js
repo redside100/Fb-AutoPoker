@@ -8,7 +8,7 @@ function poke()
         if (link.innerHTML.contains("Poke Back"))
             link.click();
     }
-    setTimeout(poke, 500);
+    setTimeout(poke, 50);
 }
 
 poke();
